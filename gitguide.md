@@ -1,4 +1,4 @@
-# Comprehensive GIT Command Line Tutorial for Managing a Development Environment
+# Comprehensive GIT Command Line Tutorial for Managing a Development Environment 
 
 ## Introduction
 
