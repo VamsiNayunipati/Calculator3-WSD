@@ -6,6 +6,7 @@ from calculator.operations import add, subtract, multiply, divide
 # pytest.mark.parametrize decorator is used to parameterize a test function, enabling it to be called
 # with different sets of arguments. Here, it's used to test various scenarios of arithmetic operations
 # with both integer and decimal operands to ensure the operations work correctly under different conditions.
+
 @pytest.mark.parametrize("a, b, operation, expected", [
     (Decimal('10'), Decimal('5'), add, Decimal('15')),  # Test addition
     (Decimal('10'), Decimal('5'), subtract, Decimal('5')),  # Test subtraction
